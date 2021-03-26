@@ -1,10 +1,11 @@
 ## Install
-
+```r
 install.packages('ROpenCVLite')
 ROpenCVLite::installOpenCV()
+```
 
 ## Run
-```
+```r
 library(leti)
 filename<-system.file('INSTAseq_ch03.csv', package='leti')
 points<-read.table(filename, sep=',', header=TRUE)
