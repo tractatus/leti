@@ -31,3 +31,5 @@ barplot(histogram$counts, col=rgb(palette(seq_along(histogram$counts) / max(seq_
 color<- rgb(palette(log2int / max(log2int)), max=255)
 plot(points$x, points$y, pch=16, ylim=rev(range(points$y)), asp = 1, cex=0.5, axes=F, ylab='', xlab='', col=color )
 ```
+
+![Intensity plot](https://raw.githubusercontent.com/tractatus/leti/main/inst/output_image.png)
