@@ -1,0 +1,4 @@
+PKG_LIBS = `Rscript -e 'ROpenCVLite::opencvConfig("libs")'`
+PKG_CPPFLAGS = `Rscript -e 'ROpenCVLite::opencvConfig("cflags")'`
+PKG_CXXFLAGS = `Rscript -e 'Rcpp:::CxxFlags()'` "-std=c++11"
+
